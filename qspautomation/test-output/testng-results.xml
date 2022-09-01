@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[actiTime create user]]>
+    </line>
+    <line>
+      <![CDATA[actiTime create reports]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100" started-at="2022-08-23T10:49:41 IST" finished-at="2022-08-23T10:49:41 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="100" started-at="2022-08-23T10:49:41 IST" finished-at="2022-08-23T10:49:41 IST">
+      <class name="TestNGFlags.Flag2">
+        <test-method status="PASS" signature="method2()[pri:0, instance:TestNGFlags.Flag2@4d41cee]" name="method2" duration-ms="19" started-at="2022-08-23T10:49:41 IST" finished-at="2022-08-23T10:49:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[actiTime create user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:TestNGFlags.Flag2@4d41cee]" name="method3" duration-ms="1" started-at="2022-08-23T10:49:41 IST" finished-at="2022-08-23T10:49:41 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[actiTime create reports]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- TestNGFlags.Flag2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
