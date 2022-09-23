@@ -14,7 +14,7 @@ public class GetRectMethod {
 		Thread.sleep(2000);
 		WebElement LoginButton = driver.findElement(By.name("login"));
 		Rectangle getrect = LoginButton.getRect();
-	    System.out.println("Width : "+getrect.getWidth());
+	    System.out.println("Width  : "+getrect.getWidth());
 	    System.out.println("height : "+getrect.getHeight());
 	    System.out.println("x Axis : "+getrect.getX());
 	    System.out.println("y Axis : "+getrect.getY());
