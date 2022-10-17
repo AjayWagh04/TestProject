@@ -19,8 +19,8 @@ public class GetWindowHandle {
 		
 		driver.findElement(By.xpath("//a[contains(text(),'Open')]")).click();
 		
-		String ParentHandle = driver.getWindowHandle();
-		System.out.println(ParentHandle);
+		/*String ParentHandle = driver.getWindowHandle();
+		System.out.println(ParentHandle);*/
 		
 		Set<String> allhandles = driver.getWindowHandles();
 		
